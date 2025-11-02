@@ -59,9 +59,9 @@ public class DFA {
             if (!valid) {
                 System.out.println("Invalid input! Only 0 and 1 are allowed.");
             } else if (state.equals("q2")) {
-                System.out.println("Output: Accepted\n");
+                System.out.println("Output: Accepted");
             } else {
-                System.out.println("Output: Rejected\n");
+                System.out.println("Output: Rejected");
             }
         }
     }
